@@ -89,15 +89,15 @@ function Consultorio(nombre, pacientes) {
     "Demasiado random"
   );
   
-  const ConsultorioDoctorLucaCirujíasQueMatan = new Consultorio("DoctorBiotti", [
+  const ConsultorioDoctorLucaCirujiasQueMatan = new Consultorio("DoctorBiotti", [
     PacienteLucaBiotti,
     PacienteSeñoraRandom,
   ]);
   
  // Llamado a funciones
   
- ConsultorioDoctorLucaCirujíasQueMatan.todosLosPacientes();
- ConsultorioDoctorLucaCirujíasQueMatan.buscarPaciente("Luca");
- ConsultorioDoctorLucaCirujíasQueMatan.buscarPaciente("Señora");
+ ConsultorioDoctorLucaCirujiasQueMatan.todosLosPacientes();
+ ConsultorioDoctorLucaCirujiasQueMatan.buscarPaciente("Luca");
+ ConsultorioDoctorLucaCirujiasQueMatan.buscarPaciente("Señora");
 
   
